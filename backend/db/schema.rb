@@ -17,9 +17,11 @@ ActiveRecord::Schema.define(version: 20150514193314) do
   enable_extension "plpgsql"
 
   create_table "cities", force: true do |t|
-    t.string   "name"
+    t.string   "name",       null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "cities", ["name"], name: "index_cities_on_name", unique: true, using: :btree
 
 end
