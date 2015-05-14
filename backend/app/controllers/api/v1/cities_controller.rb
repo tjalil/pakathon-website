@@ -1,4 +1,4 @@
-class api::v1::CitiesController < ApplicationController
+class Api::V1::CitiesController < ApplicationController
 
   def index
   end
