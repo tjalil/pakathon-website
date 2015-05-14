@@ -1,0 +1,5 @@
+<ul>
+  {{#each city in model}}
+    <li>{{link-to city.name 'cities.show' city}}</li>
+  {{/each}}
+</ul>
