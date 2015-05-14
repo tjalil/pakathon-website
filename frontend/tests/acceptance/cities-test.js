@@ -46,8 +46,8 @@ test('visiting /cities', function(assert) {
   andThen(function() {
     assert.equal(currentPath(), 'cities.index');
     assert.equal(find("h3:contains('I am a Pakathon City')").length, 1);
-    assert.equal(find("h3:contains('City One')").length, 1);
-    assert.equal(find("h3:contains('City Two')").length, 1);
-    assert.equal(find("h3:contains('City Three')").length, 1);
+    assert.equal(find("li:contains('City One')").length, 1);
+    assert.equal(find("li:contains('City Two')").length, 1);
+    assert.equal(find("li:contains('City Three')").length, 1);
   });
 });
