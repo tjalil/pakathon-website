@@ -44,7 +44,7 @@ test('visiting /cities', function(assert) {
   visit('/cities');
 
   andThen(function() {
-    assert.equal(currentURL(), 'cities.index');
+    assert.equal(currentPath(), 'cities.index');
     assert.equal(find("h3:contains('I am a Pakathon City')").length, 1);
     assert.equal(find("h3:contains('City One')").length, 1);
     assert.equal(find("h3:contains('City Two')").length, 1);
