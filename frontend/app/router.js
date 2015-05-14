@@ -6,12 +6,8 @@ var Router = Ember.Router.extend({
 });
 
 export default Router.map(function() {
-  // this.resource('api', function() {
-  //   this.resource('v1', function() {
-      this.resource('cities', function() {
-        this.route('show', {path: ':id'});
-      });
-  //   });
-  // });
+  this.resource('cities', function() {
+    this.route('show', {path: ':id'});
+  });
   // this.route('cities');
 });
