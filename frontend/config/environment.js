@@ -4,6 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'pakathon-website',
     environment: environment,
+    podModulePrefix: 'pakathon-website/pods',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

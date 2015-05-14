@@ -9,5 +9,4 @@ export default Router.map(function() {
   this.resource('cities', function() {
     this.route('show', {path: ':id'});
   });
-  // this.route('cities');
 });
