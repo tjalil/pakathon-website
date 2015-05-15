@@ -9,3 +9,6 @@
   City.create(id: "1", name: "City One")
   City.create(id: "2", name: "City Two")
   City.create(id: "3", name: "City Three")
+  City.create(id: "4", name: "Toronto")
+  City.create(id: "5", name: "Boston")
+  City.create(id: "6", name: "Islamabad")
