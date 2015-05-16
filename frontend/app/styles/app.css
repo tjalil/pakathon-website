@@ -140,6 +140,162 @@ p, li { color: #777777; }
   .small-block-grid-12 > li { width: 8.33333%; }
   .small-block-grid-12 > li:nth-of-type(n) { clear: none; }
   .small-block-grid-12 > li:nth-of-type(12n+1) { clear: both; } }
+@media only screen and (min-width: 321px) { .xsmall-text-center { text-align: center; }
+  .xsmall-text-left { text-align: left; }
+  .xsmall-text-right { text-align: right; }
+  .col.xsmall-centered, .column.xsmall-centered, .columns.xsmall-centered { margin-left: auto; margin-right: auto; float: none; }
+  .col.xsmall-uncentered, .column.xsmall-uncentered, .columns.xsmall-uncentered { margin-left: 0; margin-right: 0; float: left; }
+  .col.xsmall-uncentered.opposite, .column.xsmall-uncentered.opposite, .columns.xsmall-uncentered.opposite { float: right; }
+  .xsmall-1 { width: 8.33333%; }
+  .xsmall-2 { width: 16.66667%; }
+  .xsmall-3 { width: 25%; }
+  .xsmall-4 { width: 33.33333%; }
+  .xsmall-5 { width: 41.66667%; }
+  .xsmall-6 { width: 50%; }
+  .xsmall-7 { width: 58.33333%; }
+  .xsmall-8 { width: 66.66667%; }
+  .xsmall-9 { width: 75%; }
+  .xsmall-10 { width: 83.33333%; }
+  .xsmall-11 { width: 91.66667%; }
+  .xsmall-12 { width: 100%; }
+  .xsmall-push-1 { left: 8.33333%; right: auto; }
+  .xsmall-push-2 { left: 16.66667%; right: auto; }
+  .xsmall-push-3 { left: 25%; right: auto; }
+  .xsmall-push-4 { left: 33.33333%; right: auto; }
+  .xsmall-push-5 { left: 41.66667%; right: auto; }
+  .xsmall-push-6 { left: 50%; right: auto; }
+  .xsmall-push-7 { left: 58.33333%; right: auto; }
+  .xsmall-push-8 { left: 66.66667%; right: auto; }
+  .xsmall-push-9 { left: 75%; right: auto; }
+  .xsmall-push-10 { left: 83.33333%; right: auto; }
+  .xsmall-push-11 { left: 91.66667%; right: auto; }
+  .xsmall-push-12 { left: 100%; right: auto; }
+  .xsmall-pull-1 { right: 8.33333%; left: auto; }
+  .xsmall-pull-2 { right: 16.66667%; left: auto; }
+  .xsmall-pull-3 { right: 25%; left: auto; }
+  .xsmall-pull-4 { right: 33.33333%; left: auto; }
+  .xsmall-pull-5 { right: 41.66667%; left: auto; }
+  .xsmall-pull-6 { right: 50%; left: auto; }
+  .xsmall-pull-7 { right: 58.33333%; left: auto; }
+  .xsmall-pull-8 { right: 66.66667%; left: auto; }
+  .xsmall-pull-9 { right: 75%; left: auto; }
+  .xsmall-pull-10 { right: 83.33333%; left: auto; }
+  .xsmall-pull-11 { right: 91.66667%; left: auto; }
+  .xsmall-pull-12 { right: 100%; left: auto; }
+  .xsmall-block-grid-1 > li { width: 100%; }
+  .xsmall-block-grid-1 > li:nth-of-type(n) { clear: none; }
+  .xsmall-block-grid-1 > li:nth-of-type(1n+1) { clear: both; }
+  .xsmall-block-grid-2 > li { width: 50%; }
+  .xsmall-block-grid-2 > li:nth-of-type(n) { clear: none; }
+  .xsmall-block-grid-2 > li:nth-of-type(2n+1) { clear: both; }
+  .xsmall-block-grid-3 > li { width: 33.33333%; }
+  .xsmall-block-grid-3 > li:nth-of-type(n) { clear: none; }
+  .xsmall-block-grid-3 > li:nth-of-type(3n+1) { clear: both; }
+  .xsmall-block-grid-4 > li { width: 25%; }
+  .xsmall-block-grid-4 > li:nth-of-type(n) { clear: none; }
+  .xsmall-block-grid-4 > li:nth-of-type(4n+1) { clear: both; }
+  .xsmall-block-grid-5 > li { width: 20%; }
+  .xsmall-block-grid-5 > li:nth-of-type(n) { clear: none; }
+  .xsmall-block-grid-5 > li:nth-of-type(5n+1) { clear: both; }
+  .xsmall-block-grid-6 > li { width: 16.66667%; }
+  .xsmall-block-grid-6 > li:nth-of-type(n) { clear: none; }
+  .xsmall-block-grid-6 > li:nth-of-type(6n+1) { clear: both; }
+  .xsmall-block-grid-7 > li { width: 14.28571%; }
+  .xsmall-block-grid-7 > li:nth-of-type(n) { clear: none; }
+  .xsmall-block-grid-7 > li:nth-of-type(7n+1) { clear: both; }
+  .xsmall-block-grid-8 > li { width: 12.5%; }
+  .xsmall-block-grid-8 > li:nth-of-type(n) { clear: none; }
+  .xsmall-block-grid-8 > li:nth-of-type(8n+1) { clear: both; }
+  .xsmall-block-grid-9 > li { width: 11.11111%; }
+  .xsmall-block-grid-9 > li:nth-of-type(n) { clear: none; }
+  .xsmall-block-grid-9 > li:nth-of-type(9n+1) { clear: both; }
+  .xsmall-block-grid-10 > li { width: 10%; }
+  .xsmall-block-grid-10 > li:nth-of-type(n) { clear: none; }
+  .xsmall-block-grid-10 > li:nth-of-type(10n+1) { clear: both; }
+  .xsmall-block-grid-11 > li { width: 9.09091%; }
+  .xsmall-block-grid-11 > li:nth-of-type(n) { clear: none; }
+  .xsmall-block-grid-11 > li:nth-of-type(11n+1) { clear: both; }
+  .xsmall-block-grid-12 > li { width: 8.33333%; }
+  .xsmall-block-grid-12 > li:nth-of-type(n) { clear: none; }
+  .xsmall-block-grid-12 > li:nth-of-type(12n+1) { clear: both; } }
+@media only screen and (min-width: 481px) { .small-text-center { text-align: center; }
+  .small-text-left { text-align: left; }
+  .small-text-right { text-align: right; }
+  .col.small-centered, .column.small-centered, .columns.small-centered { margin-left: auto; margin-right: auto; float: none; }
+  .col.small-uncentered, .column.small-uncentered, .columns.small-uncentered { margin-left: 0; margin-right: 0; float: left; }
+  .col.small-uncentered.opposite, .column.small-uncentered.opposite, .columns.small-uncentered.opposite { float: right; }
+  .small-1 { width: 8.33333%; }
+  .small-2 { width: 16.66667%; }
+  .small-3 { width: 25%; }
+  .small-4 { width: 33.33333%; }
+  .small-5 { width: 41.66667%; }
+  .small-6 { width: 50%; }
+  .small-7 { width: 58.33333%; }
+  .small-8 { width: 66.66667%; }
+  .small-9 { width: 75%; }
+  .small-10 { width: 83.33333%; }
+  .small-11 { width: 91.66667%; }
+  .small-12 { width: 100%; }
+  .small-push-1 { left: 8.33333%; right: auto; }
+  .small-push-2 { left: 16.66667%; right: auto; }
+  .small-push-3 { left: 25%; right: auto; }
+  .small-push-4 { left: 33.33333%; right: auto; }
+  .small-push-5 { left: 41.66667%; right: auto; }
+  .small-push-6 { left: 50%; right: auto; }
+  .small-push-7 { left: 58.33333%; right: auto; }
+  .small-push-8 { left: 66.66667%; right: auto; }
+  .small-push-9 { left: 75%; right: auto; }
+  .small-push-10 { left: 83.33333%; right: auto; }
+  .small-push-11 { left: 91.66667%; right: auto; }
+  .small-push-12 { left: 100%; right: auto; }
+  .small-pull-1 { right: 8.33333%; left: auto; }
+  .small-pull-2 { right: 16.66667%; left: auto; }
+  .small-pull-3 { right: 25%; left: auto; }
+  .small-pull-4 { right: 33.33333%; left: auto; }
+  .small-pull-5 { right: 41.66667%; left: auto; }
+  .small-pull-6 { right: 50%; left: auto; }
+  .small-pull-7 { right: 58.33333%; left: auto; }
+  .small-pull-8 { right: 66.66667%; left: auto; }
+  .small-pull-9 { right: 75%; left: auto; }
+  .small-pull-10 { right: 83.33333%; left: auto; }
+  .small-pull-11 { right: 91.66667%; left: auto; }
+  .small-pull-12 { right: 100%; left: auto; }
+  .small-block-grid-1 > li { width: 100%; }
+  .small-block-grid-1 > li:nth-of-type(n) { clear: none; }
+  .small-block-grid-1 > li:nth-of-type(1n+1) { clear: both; }
+  .small-block-grid-2 > li { width: 50%; }
+  .small-block-grid-2 > li:nth-of-type(n) { clear: none; }
+  .small-block-grid-2 > li:nth-of-type(2n+1) { clear: both; }
+  .small-block-grid-3 > li { width: 33.33333%; }
+  .small-block-grid-3 > li:nth-of-type(n) { clear: none; }
+  .small-block-grid-3 > li:nth-of-type(3n+1) { clear: both; }
+  .small-block-grid-4 > li { width: 25%; }
+  .small-block-grid-4 > li:nth-of-type(n) { clear: none; }
+  .small-block-grid-4 > li:nth-of-type(4n+1) { clear: both; }
+  .small-block-grid-5 > li { width: 20%; }
+  .small-block-grid-5 > li:nth-of-type(n) { clear: none; }
+  .small-block-grid-5 > li:nth-of-type(5n+1) { clear: both; }
+  .small-block-grid-6 > li { width: 16.66667%; }
+  .small-block-grid-6 > li:nth-of-type(n) { clear: none; }
+  .small-block-grid-6 > li:nth-of-type(6n+1) { clear: both; }
+  .small-block-grid-7 > li { width: 14.28571%; }
+  .small-block-grid-7 > li:nth-of-type(n) { clear: none; }
+  .small-block-grid-7 > li:nth-of-type(7n+1) { clear: both; }
+  .small-block-grid-8 > li { width: 12.5%; }
+  .small-block-grid-8 > li:nth-of-type(n) { clear: none; }
+  .small-block-grid-8 > li:nth-of-type(8n+1) { clear: both; }
+  .small-block-grid-9 > li { width: 11.11111%; }
+  .small-block-grid-9 > li:nth-of-type(n) { clear: none; }
+  .small-block-grid-9 > li:nth-of-type(9n+1) { clear: both; }
+  .small-block-grid-10 > li { width: 10%; }
+  .small-block-grid-10 > li:nth-of-type(n) { clear: none; }
+  .small-block-grid-10 > li:nth-of-type(10n+1) { clear: both; }
+  .small-block-grid-11 > li { width: 9.09091%; }
+  .small-block-grid-11 > li:nth-of-type(n) { clear: none; }
+  .small-block-grid-11 > li:nth-of-type(11n+1) { clear: both; }
+  .small-block-grid-12 > li { width: 8.33333%; }
+  .small-block-grid-12 > li:nth-of-type(n) { clear: none; }
+  .small-block-grid-12 > li:nth-of-type(12n+1) { clear: both; } }
 @media only screen and (min-width: 769px) { .medium-text-center { text-align: center; }
   .medium-text-left { text-align: left; }
   .medium-text-right { text-align: right; }
