@@ -43,7 +43,7 @@ svg:not(:root) { overflow: hidden; }
 
 code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1.4rem; }
 
-h1, h2, h3, h4, h5, h6, .alpha, .beta, .gamma, .delta, .epsilon, .zeta { color: #333333; }
+h1, h2, h3, h4, h5, h6, .alpha, .beta, .gamma, .delta, .epsilon, .zeta { color: #333333; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
 
 p, li { color: #777777; }
 
@@ -512,4 +512,4 @@ iframe, object, embed { max-width: 100%; }
 
 table.has-rows tr:nth-of-type(2n) { background: #fafafa; }
 
-#title { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-size: 20px; }
+#title { font-size: 20px; }
