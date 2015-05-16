@@ -1,0 +1,11 @@
+.global-header {
+  .logo {
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      background-image: url('images/pakathon-logo.png');
+    }
+  }
+}

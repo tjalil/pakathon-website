@@ -218,7 +218,7 @@ p, li { color: #777777; }
   .xsmall-block-grid-12 > li { width: 8.33333%; }
   .xsmall-block-grid-12 > li:nth-of-type(n) { clear: none; }
   .xsmall-block-grid-12 > li:nth-of-type(12n+1) { clear: both; } }
-@media only screen and (min-width: 481px) { .small-text-center { text-align: center; }
+@media only screen and (min-width: 641px) { .small-text-center { text-align: center; }
   .small-text-left { text-align: left; }
   .small-text-right { text-align: right; }
   .col.small-centered, .column.small-centered, .columns.small-centered { margin-left: auto; margin-right: auto; float: none; }
@@ -511,5 +511,8 @@ iframe, object, embed { max-width: 100%; }
 [placeholder]:-ms-input-placeholder { opacity: 1; }
 
 table.has-rows tr:nth-of-type(2n) { background: #fafafa; }
+
+.global-header .logo { position: relative; }
+.global-header .logo:before { content: ""; position: absolute; background-image: url("images/pakathon-logo.png"); }
 
 #title { font-size: 20px; }
